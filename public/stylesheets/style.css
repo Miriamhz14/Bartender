@@ -1,6 +1,7 @@
 body {
   background-color: #c2c1c2;
   font-family: 'Cormorant Unicase', serif;
+  font-weight: 400;
 }
 
 header {
@@ -74,8 +75,9 @@ button {
 
 /* Body Content */
 .dname {
-  font-size:  20px;
+  font-size:  24px;
   font-style: italic;
+  font-weight: bold;
 }
 
 .dname:hover {
@@ -83,8 +85,9 @@ button {
 }
 
 .fname {
-  font-size:  20px;
+  font-size:  24px;
   font-style: italic;
+  font-weight: bold;
 }
 
 #container {
