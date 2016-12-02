@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="uft-8">
+    <title> Mimi's Bar </title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<!-- <header>
+  <ul>
+    <li><a href=" #"> Sign In/ Sign Up</a></li>
+    <li><a href="#"> Account</a></li>
+    <li><a href="#"> Contact </a></li>
+  </ul>
+</header> -->
+<body>
+    <h1> Mimi's Bar </h1>
+    <form method="get">
+        <input id="search" type="text">  <button id="submit" type="submit"> Search</button>
+    </form>
+
+    {{#data}}
+        {{strDrink}} <br>
+       <div style="background-image: url({{strDrinkThumb}})" ></div><br>
+    {{/data}}
+
+</body>
+</html>

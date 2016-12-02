@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="uft-8">
+    <title> Sign In/ Sign Up </title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+    <center>
+      <header>
+            <h1> Mimi's Bar </h1>
+
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/favorites">Favorites</a></li>
+                <li><a href="/signIn">Sign In/ Sign Up</a></li>
+            </ul>
+      </header>
+    </center>
+
+  <center><div id="container">
+      <div class="result">
+          <form id="login" method="POST" action="/signIn">
+              Name: <br>
+              <input name="name" id="name"><br>
+              Email: <br>
+              <input name="email" id="email"><br>
+              Password:<br>
+              <input name="password" id="password" type="password"><br><br>
+              <button id="submit" type="submit">Submit</button>
+          </form>
+      </div> </center>
+</body>
+</html>
