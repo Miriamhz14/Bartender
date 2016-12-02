@@ -49,12 +49,13 @@ const express = require('express'),
       [name, url, ins, ing1,ing2,ing3, mes1,mes2,mes3]);
 
   })
+
+  //delete function
   var del;
   app.post('/testip', function(req,res){
     del = req.body.data;
     db.none("DELETE FROM favorites WHERE image = $1", [del]);
     db.none("DELETE FROM drinks WHERE image = $1", [del]);
-    res.render('favorites');
   });
 
   var name2;
@@ -87,6 +88,7 @@ const express = require('express'),
   //   res.render('index');
   // })
 
+//load random drinks from API,  uses  user's  input to add url from API
 var on = false;
 app.get('/', function(req,res){
 
