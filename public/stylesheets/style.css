@@ -31,10 +31,6 @@ ul {
   color: white;
  }
 
-.delete{
-    cursor: pointer;
-}
-
 li a {
   text-align: center;
   text-decoration: none;
@@ -48,6 +44,7 @@ li a {
   float: left;
   margin-bottom: 2px;
 }
+
 #form {
   float: left;
   margin-bottom: 2px;
@@ -91,6 +88,11 @@ button {
   text-align: center;
   font-size: 18px;
 }
+
+.delete {
+    cursor: pointer;
+}
+
 .find{
   cursor: pointer;
 }
@@ -103,6 +105,7 @@ button {
   background-position: center;
   margin: 0 auto;
 }
+
 .fav_img {
   height: 300px;
   width: 250px;

@@ -8,6 +8,8 @@ $(document).ready(function() {
     });
   });
 
+  // search bar
+
   $('.find').click(function(){
 
     var name = $(this).attr('nam');
@@ -35,6 +37,8 @@ $(document).ready(function() {
       }
     });
   });
+
+// To delete from page
 
   $('.delete').click(function(){
 

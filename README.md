@@ -1,9 +1,11 @@
-##  Link goes in here 
+##  Link to HEROKU
 
 ---
 ### Wireframes
 ---
+![alt tag](http://i.imgur.com/iLfdGEEl.jpg?1)
 
+![alt tag](http://i.imgur.com/9qCaOnNl.jpg)
 
 
 ### Techniques
@@ -20,6 +22,9 @@ half way that the API was hard to work with so I didn't commit at all.
 Encounter many problems with my routes but was able to get help from classmates who explained
 very well what to do.
 
+---
+NPMs used express, PG-Promise, Body-Parser, Method-Override, Mustache-Express, and Fetch 
+        
 
 
 
@@ -30,16 +35,14 @@ very well what to do.
 
 ##  User Story
 
----
-
 ### User Story 1
-* **  As a mixologist, I want to be able to look up cocktails in seconds, that are detailed
+ As a mixologist, I want to be able to look up cocktails in seconds, that are detailed
 and well written. There are only so mnay recipes I am able to know of the top of my head.
 
 
 ---
 
 ### User Story 2
-* ** As a wannabe bartender, I want to be able to look up recipes for cocktails so I can impress 
+As a wannabe bartender, I want to be able to look up recipes for cocktails so I can impress 
 my guess with my new skills.  I want to be able to see it all without having to click on the picture 
 so that it wouls take me to the ingredients and directions.

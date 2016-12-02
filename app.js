@@ -52,6 +52,7 @@ const express = require('express'),
   var del;
   app.post('/testip', function(req,res){
     del = req.body.data;
+    db.none("DELETE FROM favorites WHERE image = $1", [del]);
     db.none("DELETE FROM drinks WHERE image = $1", [del]);
     res.render('favorites');
   });
