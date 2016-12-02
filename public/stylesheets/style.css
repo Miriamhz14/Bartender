@@ -69,9 +69,23 @@ button {
   text-align: center;
   height: 35px;
   width:  70px;
+  border-style: none;
 }
 
 /* Body Content */
+.dname {
+  font-size:  20px;
+  font-style: italic;
+}
+
+.dname:hover {
+  font-size: 24px;
+}
+
+.fname {
+  font-size:  20px;
+  font-style: italic;
+}
 
 #container {
   width: 75%;
@@ -91,6 +105,15 @@ button {
 
 .delete {
     cursor: pointer;
+    background-color:  black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    width:  80px;
+    border-style: none;
+    line-height: 40px;
+    margin-bottom: 40px;
 }
 
 .find{

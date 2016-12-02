@@ -132,15 +132,15 @@ app.get('/', function(req,res){
         });
       });
 
-      fetch('http://www.thecocktaildb.com/api/json/v1/1/random.php')
-      .then(function(data){
-        return data.json()
-      })
-      .then(function(data){
-        res.render('index', {
-          data: data.drinks
-        });
-      });
+      // fetch('http://www.thecocktaildb.com/api/json/v1/1/random.php')
+      // .then(function(data){
+      //   return data.json()
+      // })
+      // .then(function(data){
+      //   res.render('index', {
+      //     data: data.drinks
+      //   });
+      // });
 
     }
 
@@ -153,12 +153,13 @@ app.get('/favorites',function(req,res){
   .then(function(data){
     var drinks = {'drinks': data};
     res.render('favorites', drinks);
+    on = false;
   })
 
 })
 
 
-// Sign In/ Sign UP
+// Sign In/ Sign UP --- classwork
 app.get('/signIn',function(req,res){
   res.render('signIn')
 })

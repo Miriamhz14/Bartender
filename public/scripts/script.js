@@ -87,6 +87,7 @@ $(document).ready(function() {
   })
 
 
+// got this from classwork
  $('#signIn').on('#submit',function(event){
     event.preventDefault()
 

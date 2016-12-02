@@ -23,6 +23,10 @@ Encounter many problems with my routes but was able to get help from classmates 
 very well what to do.
 
 ---
+I am getting an error :Can't set headers after they are sent. I'm not sure as what that means, this happened at the very end of my project.
+Everything works as it should though.
+
+---
 NPMs used express, PG-Promise, Body-Parser, Method-Override, Mustache-Express, and Fetch 
         
 
